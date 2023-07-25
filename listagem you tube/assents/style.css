@@ -1,0 +1,47 @@
+body{
+    display: grid;
+grid-template-columns: 200px 1fr 1fr 1fr 1fr;
+grid-template-rows: 56px 260px 260px 260px;
+grid-auto-flow: column;
+
+
+}
+header{
+   
+    grid-column-start: 1;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#menu-you img{
+    
+    padding: 15px;
+}
+#center{
+    padding-top: 8px;
+    
+}
+#vi-be-ava img{
+    padding: 10px 15px;
+}
+nav{
+  
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+ul,li {
+    padding: 5px;
+    list-style: none;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    
+    
+}
